@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3D87393E127277EE00D67883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87393B127277EE00D67883 /* main.m */; };
+		3D87393F127277EE00D67883 /* TransformableVideoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87393D127277EE00D67883 /* TransformableVideoAppDelegate.m */; };
+		3D8739421272780300D67883 /* TransformableVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8739411272780300D67883 /* TransformableVideoViewController.m */; };
+		3D8739451272780F00D67883 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8739441272780F00D67883 /* CameraImageHelper.m */; };
+		3D87394C1272782100D67883 /* TransformableVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87394B1272782100D67883 /* TransformableVideoView.m */; };
+		3D8739511272783B00D67883 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D87394F1272783B00D67883 /* MainWindow.xib */; };
+		3D8739521272783B00D67883 /* TransformableVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8739501272783B00D67883 /* TransformableVideoViewController.xib */; };
+		3DC142B9126A4848000F0E74 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC142B8126A4848000F0E74 /* CoreMedia.framework */; };
+		3DC142BB126A4848000F0E74 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC142BA126A4848000F0E74 /* CoreVideo.framework */; };
+		3DC142BD126A4848000F0E74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC142BC126A4848000F0E74 /* QuartzCore.framework */; };
+		3DC142E3126A4B43000F0E74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC142E2126A4B43000F0E74 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* TransformableVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformableVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* TransformableVideo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformableVideo_Prefix.pch; sourceTree = "<group>"; };
+		3D87393B127277EE00D67883 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Other Sources/main.m"; sourceTree = "<group>"; };
+		3D87393C127277EE00D67883 /* TransformableVideoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformableVideoAppDelegate.h; path = "Other Sources/TransformableVideoAppDelegate.h"; sourceTree = "<group>"; };
+		3D87393D127277EE00D67883 /* TransformableVideoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformableVideoAppDelegate.m; path = "Other Sources/TransformableVideoAppDelegate.m"; sourceTree = "<group>"; };
+		3D8739401272780300D67883 /* TransformableVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformableVideoViewController.h; path = Controllers/TransformableVideoViewController.h; sourceTree = "<group>"; };
+		3D8739411272780300D67883 /* TransformableVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformableVideoViewController.m; path = Controllers/TransformableVideoViewController.m; sourceTree = "<group>"; };
+		3D8739431272780F00D67883 /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraImageHelper.h; path = Classes/CameraImageHelper.h; sourceTree = "<group>"; };
+		3D8739441272780F00D67883 /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraImageHelper.m; path = Classes/CameraImageHelper.m; sourceTree = "<group>"; };
+		3D87394A1272782100D67883 /* TransformableVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransformableVideoView.h; path = Classes/TransformableVideoView.h; sourceTree = "<group>"; };
+		3D87394B1272782100D67883 /* TransformableVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransformableVideoView.m; path = Classes/TransformableVideoView.m; sourceTree = "<group>"; };
+		3D87394F1272783B00D67883 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		3D8739501272783B00D67883 /* TransformableVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TransformableVideoViewController.xib; path = Resources/TransformableVideoViewController.xib; sourceTree = "<group>"; };
+		3DC142B8126A4848000F0E74 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3DC142BA126A4848000F0E74 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3DC142BC126A4848000F0E74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3DC142E2126A4B43000F0E74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* TransformableVideo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TransformableVideo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				3DC142B9126A4848000F0E74 /* CoreMedia.framework in Frameworks */,
+				3DC142BB126A4848000F0E74 /* CoreVideo.framework in Frameworks */,
+				3DC142BD126A4848000F0E74 /* QuartzCore.framework in Frameworks */,
+				3DC142E3126A4B43000F0E74 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D8739041272723200D67883 /* Camera Image Helper */,
+				3DC14295126A4507000F0E74 /* Transformable Video View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TransformableVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3D8739051272724D00D67883 /* Controllers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3D87393B127277EE00D67883 /* main.m */,
+				3D87393C127277EE00D67883 /* TransformableVideoAppDelegate.h */,
+				3D87393D127277EE00D67883 /* TransformableVideoAppDelegate.m */,
+				32CA4F630368D1EE00C91783 /* TransformableVideo_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D87394F1272783B00D67883 /* MainWindow.xib */,
+				3D8739501272783B00D67883 /* TransformableVideoViewController.xib */,
+				8D1107310486CEB800E47090 /* TransformableVideo-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				3DC142B8126A4848000F0E74 /* CoreMedia.framework */,
+				3DC142BA126A4848000F0E74 /* CoreVideo.framework */,
+				3DC142BC126A4848000F0E74 /* QuartzCore.framework */,
+				3DC142E2126A4B43000F0E74 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D8739041272723200D67883 /* Camera Image Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3D8739431272780F00D67883 /* CameraImageHelper.h */,
+				3D8739441272780F00D67883 /* CameraImageHelper.m */,
+			);
+			name = "Camera Image Helper";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D8739051272724D00D67883 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D8739401272780300D67883 /* TransformableVideoViewController.h */,
+				3D8739411272780300D67883 /* TransformableVideoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3DC14295126A4507000F0E74 /* Transformable Video View */ = {
+			isa = PBXGroup;
+			children = (
+				3D87394A1272782100D67883 /* TransformableVideoView.h */,
+				3D87394B1272782100D67883 /* TransformableVideoView.m */,
+			);
+			name = "Transformable Video View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TransformableVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TransformableVideo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransformableVideo;
+			productName = TransformableVideo;
+			productReference = 1D6058910D05DD3D006BFB54 /* TransformableVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TransformableVideo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TransformableVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8739511272783B00D67883 /* MainWindow.xib in Resources */,
+				3D8739521272783B00D67883 /* TransformableVideoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87393E127277EE00D67883 /* main.m in Sources */,
+				3D87393F127277EE00D67883 /* TransformableVideoAppDelegate.m in Sources */,
+				3D8739421272780300D67883 /* TransformableVideoViewController.m in Sources */,
+				3D8739451272780F00D67883 /* CameraImageHelper.m in Sources */,
+				3D87394C1272782100D67883 /* TransformableVideoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TransformableVideo_Prefix.pch;
+				INFOPLIST_FILE = "TransformableVideo-Info.plist";
+				PRODUCT_NAME = TransformableVideo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TransformableVideo_Prefix.pch;
+				INFOPLIST_FILE = "TransformableVideo-Info.plist";
+				PRODUCT_NAME = TransformableVideo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TransformableVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TransformableVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

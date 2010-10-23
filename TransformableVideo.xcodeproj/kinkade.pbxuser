@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* TransformableVideo */ = {
+		activeExec = 0;
+		executables = (
+			3DC1426A126A43A0000F0E74 /* TransformableVideo */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3DC1426A126A43A0000F0E74 /* TransformableVideo */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TransformableVideo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TransformableVideo */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 3DC14275126A43A4000F0E74 /* Code sense */;
+		executables = (
+			3DC1426A126A43A0000F0E74 /* TransformableVideo */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 309490022;
+			PBXWorkspaceStateSaveDate = 309490022;
+		};
+		sourceControlManager = 3DC14274126A43A4000F0E74 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TransformableVideo_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876, 876}}";
+			sepNavSelRange = "{114, 0}";
+			sepNavVisRange = "{0, 240}";
+			sepNavWindowFrame = "{{61, 160}, {665, 971}}";
+		};
+	};
+	3D87393B127277EE00D67883 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 1079}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 376}";
+			sepNavWindowFrame = "{{15, 4}, {1159, 1174}}";
+		};
+	};
+	3D87393C127277EE00D67883 /* TransformableVideoAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 1079}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 549}";
+			sepNavWindowFrame = "{{15, 4}, {1159, 1174}}";
+		};
+	};
+	3D87393D127277EE00D67883 /* TransformableVideoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 1079}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 851}";
+		};
+	};
+	3D8739401272780300D67883 /* TransformableVideoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 1079}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 274}";
+		};
+	};
+	3D8739411272780300D67883 /* TransformableVideoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 1079}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 652}";
+			sepNavWindowFrame = "{{761, 4}, {1159, 1174}}";
+		};
+	};
+	3D8739431272780F00D67883 /* CameraImageHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 1079}}";
+			sepNavSelRange = "{59, 0}";
+			sepNavVisRange = "{0, 568}";
+		};
+	};
+	3D8739441272780F00D67883 /* CameraImageHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1420, 1862}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 2396}";
+			sepNavWindowFrame = "{{15, 4}, {1159, 1174}}";
+		};
+	};
+	3D87394A1272782100D67883 /* TransformableVideoView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 323}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRange = "{35, 269}";
+			sepNavWindowFrame = "{{15, 4}, {1159, 1174}}";
+		};
+	};
+	3D87394B1272782100D67883 /* TransformableVideoView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2652, 5282}}";
+			sepNavSelRange = "{381, 0}";
+			sepNavVisRange = "{0, 1080}";
+			sepNavWindowFrame = "{{15, 4}, {1159, 1174}}";
+		};
+	};
+	3DC1426A126A43A0000F0E74 /* TransformableVideo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TransformableVideo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	3DC14274126A43A4000F0E74 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3DC14275126A43A4000F0E74 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
